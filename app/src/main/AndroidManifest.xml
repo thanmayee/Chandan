@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.panyt.chandan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/chandan"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity2"
+            android:label="@string/title_activity_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity3"
+            android:label="@string/title_activity_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity4"
+            android:label="@string/title_activity_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity5"
+            android:label="@string/title_activity_5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity6"
+            android:label="@string/title_activity_6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity7"
+            android:label="@string/title_activity_7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity8"
+            android:label="@string/title_activity_8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity9"
+            android:label="@string/title_activity_9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_list_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity10"
+            android:label="@string/title_activity_10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity11"
+            android:label="@string/title_activity_11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thumb2"
+            android:label="@string/title_activity_thumb2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thumb3"
+            android:label="@string/title_activity_thumb3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thumb4"
+            android:label="@string/title_activity_thumb4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thumb5"
+            android:label="@string/title_activity_thumb5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activitythumb6"
+            android:label="@string/title_activity_activitythumb6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.NextActivity"
+            android:label="Next Screen" >
+        </activity>
+
+        <receiver android:name=".NotificationPublisher" />
+
+        <activity
+            android:name=".ToDoList"
+            android:label="@string/title_activity_to_do_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

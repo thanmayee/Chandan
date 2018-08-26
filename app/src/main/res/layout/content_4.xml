@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity4"
+    tools:showIn="@layout/activity_4">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="364dp"
+        android:layout_height="420dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Chandan Yadav\nChandan is a developer,dancer,writer,motivational speaker\nEarly life and education\nChandan was born in Bengaluru,Karnataka,He completed his schooling at Sharadha Vidhayala and Pre University at MES college and did his gradution from R.V College of Engineering\nCareer as a Developer\nChandan currently works for Pega Systems.\nQuora:\nChandan has written around 137 answers and has close to 134 followers.\nInnervoice:\nChandan has written around 1235 quotes and has 72 followers.\nDance:\nChandan is a great dancer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
